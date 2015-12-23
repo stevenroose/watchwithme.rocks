@@ -1,0 +1,84 @@
+{
+  "ngDeps": {
+    "1": "gaze_web.app_component",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:websockets/browser_websockets.dart",
+        "5": false
+      },
+      {
+        "1": "package:gaze_shared/backend_provider.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AppComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'gaze-app'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'app_component.html'"
+              },
+              {
+                "1": "styleUrls",
+                "2": "const ['app_component.css']"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "app_component.dart"
+  },
+  "AppComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "gaze-app",
+      "exportAs": null,
+      "type": {
+        "name": "AppComponent",
+        "moduleUrl": "asset:gaze_web/lib/app_component.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "\n<div id=\"gazer_counter\">{{nbGazers}}</div>\n",
+        "templateUrl": "asset:gaze_web/lib/app_component.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:gaze_web/lib/app_component.css"
+        ],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

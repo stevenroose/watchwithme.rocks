@@ -1,0 +1,26 @@
+{
+  "ngDeps": {
+    "1": "gaze_web.web",
+    "3": [
+      {
+        "1": "package:angular2/bootstrap_static.dart",
+        "5": false
+      },
+      {
+        "1": "package:gaze_web/app_component.dart",
+        "5": false
+      }
+    ],
+    "6": "main.dart",
+    "10": [
+      {
+        "1": "package:angular2/bootstrap_static.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:gaze_web/app_component.ng_deps.dart",
+        "4": "i1"
+      }
+    ]
+  }
+}
